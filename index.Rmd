@@ -1,0 +1,38 @@
+---
+title: "Igor Baglay, CFA"
+image: "Igor.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/baglay"
+  - label: Twitter
+    url: "https://twitter.com/igorilka1"
+  - label: GitHub
+    url: "https://github.com/igorbaglay"
+  - label: Email
+    url: "mailto:igor@baglay.com"
+output:
+  postcards::jolla
+---
+ 
+*"Igor" is pronounced like in "Rigor"*
+
+I am a business analyst and a data scientist living in the Kyiv area of Ukraine.  I have been working for the investment banking and capital markets industry for the last 20 years.  I am a long distance runner.
+
+```{r, echo = FALSE}
+library(metathis)
+meta() %>%
+  meta_description(
+    "Home page for Igor Baglay, CFA"
+  ) %>% 
+  meta_name("github-repo" = "igorbaglay/igor.baglay.com") %>% 
+  meta_viewport() %>% 
+  meta_social(
+    title = "Home page for Igor Baglay, CFA",
+    url = "https://igor.baglay.com",
+    image = "https://igor.baglay.com/Igor.jpg",
+    image_alt = "Photo of Igor Baglay",
+    og_author = c("Igor Baglay"),
+    twitter_card_type = "summary",
+    twitter_creator = "@igorilka1"
+  )
+```
